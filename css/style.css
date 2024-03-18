@@ -1,4 +1,4 @@
-div[class^="col"] {
+#grid1 div[class^="col"] {
     border: 3px solid black;
     min-height: 275px;
 }
@@ -24,7 +24,16 @@ div[class^="col"] {
 }
 
 /* END OF FIRST GRID */
+#grid2 div[class^="col"] {
+    background-color:  #92ad82;
+    min-height: 75px;
+    border: 10px solid white;
+}
 
 #box2 {
-    height: 15%;
+    height: 25%;
+}
+
+#box3 {
+    height: 75%;
 }
